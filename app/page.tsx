@@ -77,7 +77,7 @@ export default function Home() {
         />
 
         <label className="block text-sm font-semibold mb-1 text-yellow-300">PDF Files:</label>
-        <div className="relative w-full mb-4">
+        <div className="relative w-fit mb-4">
           <label
             htmlFor="fileInput"
             className="flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-xl font-bold cursor-pointer shadow-md relative z-0"
