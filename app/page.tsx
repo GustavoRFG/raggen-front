@@ -42,7 +42,7 @@ export default function Home() {
     setUploading(true);
 
     try {
-      const res = await fetch("http://localhost:5001/upload", {
+      const res = await fetch("https://f559-2804-1b2-11c0-8707-c114-e798-a406-5689.ngrok-free.app/upload", {
         method: "POST",
         body: formData,
       });
