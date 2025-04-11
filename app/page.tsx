@@ -18,7 +18,7 @@ export default function Home() {
     setResponse(null);
 
     try {
-      const res = await fetch("https://f559-2804-1b2-11c0-8707-c114-e798-a406-5689.ngrok-free.app/rag", {
+      const res = await fetch("https://b64a-2804-1b2-11c0-8707-c114-e798-a406-5689.ngrok-free.app/rag", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, project }),
